@@ -1,35 +1,34 @@
-Project Name
-TODO: Write a project description
+# Proyecto Hogarcito 
+-Easy Java Netbeans Application Integrated SQLite 
 
-Installation
+# Installation
 
 TODO: Describe the installation process
 
 SQLite
 ![alt tag](http://img1.findthebest.com/sites/default/files/754/media/images/SQLite_167823.png)
 
--Easy Java Netbeans Application Integrated SQLite 
 
-
-Usage
+# Usage
 
 TODO: Write usage instructions
 
-Contributing
+# Contributing
 
 Fork it!
 Create your feature branch: git checkout -b my-new-feature
 Commit your changes: git commit -am 'Add some feature'
 Push to the branch: git push origin my-new-feature
 Submit a pull request :D
-History
+
+#History
 
 TODO: Write history
 
-Credits
+# Credits
 
 TODO: Write credits
 
-License
+# License
 
 TODO: Write license
