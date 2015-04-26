@@ -32,6 +32,9 @@ import model.ModelProductos;
  *
  * @author Steven
  */
+
+
+
 public class ProductosController {
 
     Connection connection = null;
@@ -92,7 +95,6 @@ public void truncateTable() throws SQLException{
                     //---------------------------
                     + " cantidadMinima    string,"
                     + " cantidadMaxima    string,"
-                    + " fechaVencimiento  string,"
                     + " usuario_registra     string,"
                     + " usuario_actualiza    string )");
             System.out.println("Tabla Creada");

@@ -8,7 +8,7 @@ package subView;
 import static java.lang.Math.random;
 import java.math.BigInteger;
 import java.security.SecureRandom;
-import view.AddProduct;
+import view2.AddProduct;
 
 /**
  *
@@ -21,9 +21,11 @@ public class NewCodigo extends javax.swing.JDialog {
      * Creates new form NewCodigo
      */
     public NewCodigo(java.awt.Dialog parent, boolean modal) {
+        
         super(parent, modal);
         initComponents();
-        aP= (AddProduct) parent;
+        aP = (AddProduct) parent;
+        
     }
 
     /**
@@ -143,13 +145,14 @@ public class NewCodigo extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-         SecureRandom random = new SecureRandom();
+        
+        SecureRandom random = new SecureRandom();
         if(check1.isSelected()){
-           aP.txtCodigo.setText(new BigInteger(130, random).toString(32).substring(0, 6));
+           AddProduct.txtCodigo.setText(new BigInteger(130, random).toString(32).substring(0, 6));
            this.dispose();
        }
        else{
-           aP.txtCodigo.setText(jTextField1.getText());
+           AddProduct.txtCodigo.setText(jTextField1.getText());
            this.dispose();
        }
         

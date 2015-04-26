@@ -39,7 +39,9 @@ public class Hogarcito extends javax.swing.JFrame {
     public Hogarcito() throws ClassNotFoundException {
         initComponents();
         setLocationRelativeTo(null);
+        
         productController= new ProductosController();
+        
         ProductosController.message = list1;
         vI = new VerInventario(this, true,productController);
     }

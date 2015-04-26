@@ -6,7 +6,7 @@
 package subView;
 
 import javax.swing.JDialog;
-import view.AddProduct;
+import view2.AddProduct;
 
 /**
  *
